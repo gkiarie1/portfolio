@@ -4,7 +4,7 @@ const projects = [
     {
         name: "ERP",
         description: "The first fullstack app I created. It is an ERP system that allows managers to efficiently manage their employees and hand out tasks",
-        githubLink: "https://github.com/gkiarie1/ERP-system.git"
+        githubLink: "https://github.com/gkiarie1/factory-erp"
     },
 ];
 
