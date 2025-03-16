@@ -15,7 +15,7 @@ const Resume = () => {
 
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/resume.pdf"; // Make sure the file is in the public folder
+        link.href = "/resume.pdf";
         link.download = "My_Resume.pdf";
         document.body.appendChild(link);
         link.click();
