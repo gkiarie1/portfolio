@@ -18,7 +18,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:10px 40px 10px 0;
+  padding:10px 10px 10px 0;
   background-color: #f8f8fc;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   height: 50px;
@@ -31,7 +31,7 @@ html, body {
 
 .logo img {
   height: 30px;
-  margin-right: 10px;
+  margin-right: 10%;
   border:none;
 }
 
@@ -42,7 +42,7 @@ html, body {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .nav-links a {
@@ -262,7 +262,7 @@ html, body {
 .home-content{
   position: absolute;
   top: 20%;
-  left: 200px;
+  left: 10%;
   font-size: 2rem;
   text-align:center;
 }
