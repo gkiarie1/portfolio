@@ -102,7 +102,7 @@ html, body {
 }
 .pdf-scrollable {
   position: absolute;
-  width: 70%; 
+  width: 60%; 
   height: 80%;
   overflow-y: auto; 
   overflow-x: hidden; 
@@ -267,7 +267,7 @@ html, body {
   justify-content: space-between;
   /* background-color: #f8f9fa; */
   overflow: hidden;
-  color:#fff
+  color:#33ff57
 }
 
 .home-content{

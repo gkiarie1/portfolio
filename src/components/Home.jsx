@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const roles = [
-  { text: "Software Developer", color: "#617C58" },
-  { text: "Fullstack Developer", color: "#33ff57" },
-  { text: "Frontend Developer", color: "#3357ff" },
+  { text: "Software Developer", color: "#33ff57" },
+  { text: "Fullstack Developer", color: "#00A86B" },
+  { text: "Frontend Developer", color: "#617C58" },
 ];
 
 const Home = () => {
