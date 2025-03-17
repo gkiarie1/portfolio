@@ -26,11 +26,11 @@ const Resume = () => {
         <div className="resume-container">
             <h2 className="resume-title">My Resume</h2>
             
-            <div className="resume-viewer">
+            <div className="pdf-scrollable">
                 <Document file="/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
                     {numPages &&
                         Array.from({ length: numPages }, (_, index) => (
-                            <Page key={index} pageNumber={index + 1} className="resume-page" width={window.innerWidth * 0.6} />
+                            <Page key={index} pageNumber={index + 1} className="pdf-page" width={window.innerWidth * 0.6} />
                         ))
                     }
                 </Document>
