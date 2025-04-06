@@ -51,10 +51,10 @@ const Home = () => {
         </span>
         <span className="cursor">|</span>
       </p>
-      <div
+{/*       <div
         className="background-image"
         style={{ backgroundImage: "url('/home.png')" }}
-      ></div>
+      ></div> */}
     </div>
   );
 };
